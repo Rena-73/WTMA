@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Donation Registration</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+}
+h1 {
+    text-align: center;
+    color: #4f6ecf;
+}
+form {
+    width: 60%;
+    margin: auto;
+    background: #e9ecef;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4f6ecf;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d56a6;
+}
+</style>
+</head>
+<body>
+<h1>Online Donation Registration</h1>
+<form>
+<label>Name:</label>
+<input type="text" name="name">
+
+<label>Email:</label>
+<input type="email" name="email">
+
+<label>Donation Category:</label>
+<select name="category">
+<option>Food Donation</option>
+<option>Education Support</option>
+<option>Medical Help</option>
+<option>Disaster Relief</option>
+</select>
+
+<label>Gender:</label>
+<div class="gender-group">
+<label><input type="radio" name="gender"> Male</label>
+<label><input type="radio" name="gender"> Female</label>
+<label><input type="radio" name="gender"> Other</label>
+</div>
+
+<label>Address:</label>
+<textarea rows="5"></textarea>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>
