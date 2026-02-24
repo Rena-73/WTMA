@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Map with Hotspots</title>
+</head>
+<body>
+<h3 align="center">Charity Locations Map</h3>
+<center>
+<!-- Embedded Google Map -->
+<iframe
+src="https://www.google.com/maps?q=chennai&output=embed"
+width="600"
+height="350">
+</iframe>
+<br><br>
+<!-- Image with Hotspots -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/India_map-en.svg/800px-India_map-en.svg.png"
+width="600" usemap="#charitymap">
+<map name="charitymap">
+<area shape="circle" coords="300,220,40"
+href="https://www.google.com/maps/place/Chennai"
+target="_blank"
+alt="Chennai Charity Center">
+<area shape="circle" coords="200,180,40"
+href="https://www.google.com/maps/place/Bangalore"
+target="_blank"
+alt="Bangalore Charity Center">
+<area shape="circle" coords="350,150,40"
+href="https://www.google.com/maps/place/Hyderabad"
+target="_blank"
+alt="Hyderabad Charity Center">
+</map>
+</center>
+</body>
+</html>
